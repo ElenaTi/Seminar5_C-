@@ -44,4 +44,4 @@ int[] NewArray = FillArray(10, 100, 1000);
 ShowArray(NewArray);
 Console.WriteLine("");
 int evenNumbers = QuantityOfEvenNumbers(NewArray);
-Console.WriteLine(evenNumbers);
+Console.WriteLine($" Количество четных элементов в массиве равно {evenNumbers}");
