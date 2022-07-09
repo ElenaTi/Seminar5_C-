@@ -30,7 +30,8 @@ void ShowArray(int[] array)
 int[] CompositionOfCoupleElements(int[] array)
 {    
     // int length2 = Math.Ceiling(array.Length / 2);
-    int length2 = 0;
+    int length2 = (int)Math.Ceiling(array.Length / 2.0);
+    /* int length2 = 0;
     if (array.Length % 2 > 0)
     {
         length2 = array.Length / 2 + 1;
@@ -38,7 +39,7 @@ int[] CompositionOfCoupleElements(int[] array)
     else
     {
         length2 = array.Length /2;
-    }
+    } */
     int[] array2 = new int[length2];
    for (int i = 0; i < array2.Length; i++)
     {      
